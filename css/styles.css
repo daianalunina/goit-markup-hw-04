@@ -199,10 +199,13 @@ align-items: center;
     padding: 120px 0px;
 }
 .hero-section{
+    margin-right: auto;
+    margin-left: auto;
     padding: 188px 0;
     max-width: 1440px;
     background-color: var(--primary-text-color);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
     url(../images/hero/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -500,7 +503,6 @@ gap: 24px;
 }
 
 .footer-right {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
